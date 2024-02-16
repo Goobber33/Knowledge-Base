@@ -1,0 +1,98 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+  }
+  .logo {
+    margin-bottom: 1.25rem;
+    width: 40vh;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    border-width: 1px;
+    width: 944px;
+    border-color: #2c2c2c;
+    height: 700px;
+  }
+  .main-Content {
+    display: flex;
+    overflow-y: scroll;
+    flex-direction: column;
+    width: 100%;
+  }
+  .heading {
+    width: 100%;
+    color: #ffffff;
+    background: #0070ff;
+  }
+  .heading h1 {
+    padding: 1rem;
+    margin: 0.5rem;
+  }
+  .terms {
+    padding: 1rem;
+    width: 100%;
+  }
+  .terms h1 {
+    width: 100%;
+  }
+  .terms p {
+    width: 100%;
+  }
+  .terms h2 {
+    width: 100%;
+    margin-bottom: 4px;
+  }
+  .privacy {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+  }
+  .checkbox {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  .btn {
+    display: flex;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    gap: 0.75rem;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  .dBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 1px;
+    background-color: #ffffff;
+    width: 182px;
+    height: 43px;
+    color: #7ba5f5;
+    border-color: #7ba5f5;
+  }
+  .dBtn:hover {
+    color: #ffffff;
+  }
+  .checked {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    width: 182px;
+    height: 43px;
+  }
+  .notChecked {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    cursor: not-allowed;
+    opacity: 0.5;
+    width: 182px;
+    height: 43px;
+  }

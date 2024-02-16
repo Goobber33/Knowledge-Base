@@ -1,0 +1,56 @@
+.VerifyPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 200px;
+  min-height: 400px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 50vh;
+}
+
+.KeelWorksLogo {
+  width: 40vh;
+  margin: 20px;
+}
+
+h1,
+p {
+  width: 50vh;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: medium;
+}
+
+h1 {
+  font-weight: bolder;
+}
+
+Button {
+  height: 5vh;
+  margin-bottom: 30px;
+}
+
+.MuiOutlinedInput-root {
+  height: 3rem;
+}
+
+.disclaimer {
+  margin-top: 35px;
+}
+
+.resendOTP {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.resendOTP-text {
+  font-family: "Arial", sans-serif;
+  color: black;
+  font-weight: 900;
+}

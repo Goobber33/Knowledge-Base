@@ -1,0 +1,70 @@
+.forgot-password{
+    margin-top: 5px;
+}
+.forgot-password-link {
+    color: black;
+    font-weight: bolder;
+}
+
+.signIn-button{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.passwordContainer{
+    margin-bottom: 5px;
+}
+.disclaimer{
+    margin-bottom: 15px;
+}
+.disclaimer-link {
+    color: inherit; /* Inherit the color from the parent element */
+    text-decoration: underline; /* Removes the underline from links */
+    font-weight: bold; /* Inherit font weight from the parent element */
+}
+
+.new-user{
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 20px;
+}
+
+.new-user-text,
+.new-user-text a { 
+    font-family: 'Arial', sans-serif;
+    color: black;
+    font-weight: 900; 
+}
+
+.signInMethods{
+    text-align: center;
+    
+}
+.icon-buttons-container {
+    display: flex; /* Continue using flexbox */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    gap: 10px; /* Space between items */
+    margin-top: 10px; /* Top margin */
+    margin-bottom: 10px; /* Bottom margin, adjust as needed */
+    padding: 5px; /* Padding around icons, adjust as needed */
+     /* Rounded corners for the container */
+}
+
+.icon-buttons-container .MuiIconButton-root {
+    border: 1px solid black; /* Border for the container */
+    border-radius: 5px;
+    width:15%;
+}
+
+.icon-buttons-container .MuiIconButton-root img {
+    height: 24px; /* Adjust the size of the icons */
+    width: 24px;
+    
+}
+
+.error-message{
+    color: red;
+}
+.signIn-heading{
+    font-weight:lighter
+}
