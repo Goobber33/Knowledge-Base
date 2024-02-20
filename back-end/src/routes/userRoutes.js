@@ -1,7 +1,6 @@
 const express = require('express');
 const router = express.Router();
 
-// Dummy controller functions
 const { registerUser, loginUser, resetPassword } = require('../controllers/usersController');
 
 router.post('/register', registerUser);
