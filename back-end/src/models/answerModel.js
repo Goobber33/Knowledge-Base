@@ -25,4 +25,4 @@ const answerSchema = new mongoose.Schema(
 );
 
 const Answers = mongoose.model("Answers", answerSchema);
-export default Answer;
+export default Answers;
