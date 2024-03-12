@@ -2,26 +2,15 @@ const mongoose = require('mongoose');
 
 const questionSchema = mongoose.Schema(
     {
-        userId: {
-          type: String,
-          required: true,
-        },
-        username: {
-            type: String,
-            required: true
-        },
-        content: {
-            type: String,
-            required: true
-        },
-        picturePath: String,
-        answers: [{
-            type: mongoose.Schema.Types.ObjectId,
-            ref: 'Answer', // Reference to the Answer model
-        }],
-    },
-    { timestamps: true }
-)
+        userId: { type: Schema.Types.ObjectId, ref: "User" },
+        title: { type: String, required: true },
+        description: { type: String, required: true },
+        image: { type: String },
+        likes: [{ type: String }],
+        answers: [{ type: Schema.Types.ObjectId, ref: "Answers" }],
+      },
+      { timestamps: true }
+    );
 
-const Question = mongoose.model("Question", questionSchema);
+const Questions = mongoose.model("Questions", questionSchema);
 export default Question;
